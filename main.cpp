@@ -1,5 +1,3 @@
-// ConsoleApplication3.cpp: ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
-//
 
 #include "stdafx.h"
 #include <cmath>
@@ -39,7 +37,7 @@ DualNumber Sub(DualNumber U, DualNumber V) //Sum Rule
 	return Dual(U.real - V.real, U.epsilon - V.epsilon);
 }
 
-DualNumber Mul(DualNumber U, DualNumber V) // Product Rule "Left d(Right)+Right d(Left)""×ó³ËÓÒµ¼£¬ÓÒ³Ë×óµ¼"
+DualNumber Mul(DualNumber U, DualNumber V) // Product Rule "Left d(Right)+Right d(Left)""å·¦ä¹˜å³å¯¼ï¼Œå³ä¹˜å·¦å¯¼"
 {
 	return Dual(U.real * V.real, U.real * V.epsilon + U.epsilon * V.real);
 }
