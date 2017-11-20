@@ -8,13 +8,6 @@ Automatic differentiation using dual numbers
 "epsilon" is the derivative of a variable
 
 
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$
-{\begin{aligned}\left\langle u,u'\right\rangle +\left\langle v,v'\right\rangle =\left\langle u+v,u'+v'\right\rangle \\\\\left\langle u,u'\right\rangle -\left\langle v,v'\right\rangle =\left\langle u-v,u'-v'\right\rangle \\\\\left\langle u,u'\right\rangle *\left\langle v,v'\right\rangle =\left\langle uv,u'v+uv'\right\rangle \\\\\left\langle u,u'\right\rangle /\left\langle v,v'\right\rangle =\left\langle {\frac  {u}{v}},{\frac  {u'v-uv'}{v^{2}}}\right\rangle \quad (v\neq 0)\\\\\sin \left\langle u,u'\right\rangle =\left\langle \sin(u),u'\cos(u)\right\rangle \\\\\cos \left\langle u,u'\right\rangle =\left\langle \cos(u),-u'\sin(u)\right\rangle \\\\\exp \left\langle u,u'\right\rangle =\left\langle \exp u,u'\exp u\right\rangle \\\\\log \left\langle u,u'\right\rangle =\left\langle \log(u),u'/u\right\rangle \quad (u>0)\\\\\left\langle u,u'\right\rangle ^{k}=\left\langle u^{k},ku^{{k-1}}u'\right\rangle \quad (u\neq 0)\\\\\left|\left\langle u,u'\right\rangle \right|=\left\langle \left|u\right|,u'{ {sign}}u\right\rangle \quad (u\neq 0)\end{aligned}}"
-$$
-
-
 Usage
 
 
